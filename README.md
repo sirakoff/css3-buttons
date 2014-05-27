@@ -3,7 +3,7 @@
 Flat buttons built from css3.
 
 #Demo 
-<a href="sirakoff.github.io/css3-buttons/">Demo</a>
+<a href="http://sirakoff.github.io/css3-buttons/">Demo</a>
 
 ### Setup
 Move `font-awesome.min.css` and `buttons.min.css` to your css folder and `dropdown.js` to your js folder. Leave the `fonts` folder in the root of your website.
