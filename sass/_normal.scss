@@ -1,0 +1,474 @@
+/**
+*
+* Default 3d Button
+*
+**/
+
+.default{
+	color:#333;
+	text-shadow: 0 1px 2px darken(#fff, 5%);
+	background: #fff;
+	border: 1px solid darken(#fff, 10%);
+	&:hover{
+		background:darken(#fff, 2%);
+		@include box-shadow(0px 0px 2px 0px darken(#fff, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+/**
+*
+* Turcuoise
+*
+**/
+
+.turcuoise{
+	color: white;
+	text-shadow: 0 1px 2px darken($turcuoise, 5%);
+	background: $turcuoise;
+	border: 1px solid darken($turcuoise, 10%);
+	&:hover{
+		background:darken($turcuoise, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($turcuoise, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+
+/**
+*
+* Emerald
+*
+**/
+.emerald{
+	color: white;
+	text-shadow: 0 1px 2px darken($emerald, 5%);
+	background: $emerald;
+	border: 1px solid darken($emerald, 10%);
+	&:hover{
+		background:darken($emerald, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($emerald, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+
+/**
+*
+* Peter River
+*
+**/
+.peter_river{
+	color: white;
+	text-shadow: 0 1px 2px darken($peter_river, 5%);
+	background: $peter_river;
+	border: 1px solid darken($peter_river, 10%);
+	&:hover{
+		background:darken($peter_river, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($peter_river, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Amethyst
+*
+**/
+
+.amethyst{
+	color: white;
+	text-shadow: 0 1px 2px darken($amethyst, 5%);
+	background: $amethyst;
+	border: 1px solid darken($amethyst, 10%);
+	&:hover{
+		background:darken($amethyst, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($amethyst, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Wet Asphalt
+*
+**/
+
+.wet_asphalt{
+	color: white;
+	text-shadow: 0 1px 2px darken($wet_asphalt, 5%);
+	background: $wet_asphalt;
+	border: 1px solid darken($wet_asphalt, 10%);
+	&:hover{
+		background:darken($wet_asphalt, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($wet_asphalt, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Green Sea
+*
+**/
+.green_sea{
+	color: white;
+	text-shadow: 0 1px 2px darken($green_sea, 5%);
+	background: $green_sea;
+	border: 1px solid darken($green_sea, 10%);
+	&:hover{
+		background:darken($green_sea, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($green_sea, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Nephritis
+*
+**/
+
+.nephritis{
+	color: white;
+	text-shadow: 0 1px 2px darken($nephritis, 5%);
+	background: $nephritis;
+	border: 1px solid darken($nephritis, 10%);
+	&:hover{
+		background:darken($nephritis, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($nephritis, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Belize Hole
+*
+**/
+.belize_hole{
+	color: white;
+	text-shadow: 0 1px 2px darken($belize_hole, 5%);
+	background: $belize_hole;
+	border: 1px solid darken($belize_hole, 10%);
+	&:hover{
+		background:darken($belize_hole, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($belize_hole, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Wisteria
+*
+**/
+.wisteria{
+	color: white;
+	text-shadow: 0 1px 2px darken($wisteria, 5%);
+	background: $wisteria;
+	border: 1px solid darken($wisteria, 10%);
+	&:hover{
+		background:darken($wisteria, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($wisteria, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Midnight Blue
+*
+**/
+.midnight_blue{
+	color: white;
+	text-shadow: 0 1px 2px darken($midnight_blue, 5%);
+	background: $midnight_blue;
+	border: 1px solid darken($midnight_blue, 10%);
+	&:hover{
+		background:darken($midnight_blue, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($midnight_blue, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Sunflower
+*
+**/
+
+.sunflower{
+	color: white;
+	text-shadow: 0 1px 2px darken($sunflower, 5%);
+	background: $sunflower;
+	border: 1px solid darken($sunflower, 10%);
+	&:hover{
+		background:darken($sunflower, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($sunflower, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Carrot
+*
+**/
+
+.carrot{
+	color: white;
+	text-shadow: 0 1px 2px darken($carrot, 5%);
+	background: $carrot;
+	border: 1px solid darken($carrot, 10%);
+	&:hover{
+		background:darken($carrot, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($carrot, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Alizarin
+*
+**/
+.alizarin{
+	color: white;
+	text-shadow: 0 1px 2px darken($alizarin, 5%);
+	background: $alizarin;
+	border: 1px solid darken($alizarin, 10%);
+	&:hover{
+		background:darken($alizarin, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($alizarin, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Clouds
+*
+**/
+
+.clouds{
+	color: $silver;
+	text-shadow: 0 1px 2px darken($clouds, 5%);
+	background: $clouds;
+	border: 1px solid darken($clouds, 10%);
+	&:hover{
+		background:darken($clouds, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($clouds, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Concrete
+*
+**/
+
+.concrete{
+	color: white;
+	text-shadow: 0 1px 2px darken($concrete, 5%);
+	background: $concrete;
+	border: 1px solid darken($concrete, 10%);
+	&:hover{
+		background:darken($concrete, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($concrete, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Orange
+*
+**/
+
+.orange{
+	color: white;
+	text-shadow: 0 1px 2px darken($orange, 5%);
+	background: $orange;
+	border: 1px solid darken($orange, 10%);
+	&:hover{
+		background:darken($orange, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($orange, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Pumkin
+*
+**/
+
+.pumkin{
+	color: white;
+	text-shadow: 0 1px 2px darken($pumkin, 5%);
+	background: $pumkin;
+	border: 1px solid darken($pumkin, 10%);
+	&:hover{
+		background:darken($pumkin, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($pumkin, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Pomegranate
+*
+**/
+
+.pomegranate{
+	color: white;
+	text-shadow: 0 1px 2px darken($pomegranate, 5%);
+	background: $pomegranate;
+	border: 1px solid darken($pomegranate, 10%);
+	&:hover{
+		background:darken($pomegranate, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($pomegranate, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Silver
+*
+**/
+.silver{
+	color: white;
+	text-shadow: 0 1px 2px darken($silver, 5%);
+	background: $silver;
+	border: 1px solid darken($silver, 10%);
+	&:hover{
+		background:darken($silver, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($silver, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}
+
+/**
+*
+* Asbestos
+*
+**/
+.asbestos{
+	color: white;
+	text-shadow: 0 1px 2px darken($asbestos, 5%);
+	background: $asbestos;
+	border: 1px solid darken($asbestos, 10%);
+	&:hover{
+		background:darken($asbestos, 1%);
+		@include box-shadow(0px 0px 2px 0px darken($asbestos, 15%));
+	}
+	&:active{
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+}

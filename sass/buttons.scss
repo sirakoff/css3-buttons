@@ -1,0 +1,122 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/box-shadow";
+@import "compass/css3/border-radius";
+@import "compass/css3/text-shadow";
+@import "font-awesome.min.css";
+@import url(http:\/\/fonts.googleapis.com/css?family=Droid+Sans|Railway);
+/**
+*
+* Colors
+*
+**/
+
+$turcuoise:#1abc9c;
+$emerald:#2ecc71;
+$peter_river:#3498db;
+$amethyst:#9b59b6;
+$wet_asphalt:#34495e;
+$green_sea:#16a085;
+$nephritis:#27ae60;
+$belize_hole:#2980b9;
+$wisteria:#8e44ad;
+$midnight_blue:#2c3e50;
+$sunflower:#f1c40f;
+$carrot:#e67e22;
+$alizarin:#e74c3c;
+$clouds:#ecf0f1;
+$concrete:#95a5a6;
+$orange:#f39c12;
+$pumkin:#d35400;
+$pomegranate:#c0392b;
+$silver:#bdc3c7;
+$asbestos:#7f8c8d;
+
+
+/**
+*
+* Imports
+*
+**/
+
+@import "3d","normal","dropdown";
+
+/**
+*
+* Settings
+*
+**/
+
+a{
+	text-decoration:none;
+	color:white;
+	i.left{
+		&:before{
+			margin:0 8px 0 0;
+		}
+	}
+	i.right{
+		&:before{
+			margin: 0 0 0 8px;
+		}
+	}
+}
+i.left{
+	&:before{
+		margin:0 5px 0 0;
+	}
+}
+i.right{
+	&:before{
+		margin: 0 0 0 5px;
+	}
+}
+.btn{
+	font-family:'Droid Sans',sans-serif;
+	position: relative;
+	line-height:1.5;
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	vertical-align:middle;
+	outline:0 !important;
+	  padding: 6px 12px;
+		font-size: 14px;
+	  text-align: center;
+	  cursor: pointer;
+}
+
+.rd{
+	@include border-radius(3px);
+}
+
+.lg{
+	padding: 10px 16px !important;
+	font-size: 18px !important;
+	line-height: 1.33 !important;
+}
+.sm{
+	padding: 5px 10px !important;
+	font-size: 12px !important;
+	line-height: 1.5 !important;
+}
+.xs{
+	padding: 2px 5px !important;
+	font-size: 12px !important;
+	line-height: 1.5 !important;
+}
+[class*="3d"]{
+	border:0 !important; 
+	outline:0 !important;
+}
+.dropdown-menu{ 
+	li{
+		float:none;
+		display: block;
+	}
+}
