@@ -76,7 +76,7 @@ To use the 3D buttons simply add `-3d` to the button's color class
    	<li><a href="">buttons</a></li>
   </ul>
 </div>
-``
+```
 #### Icons - Iconic Font by Font Awesome
 The buttons framework uses the Font Awesome. To add icons to the button add `<i class="fa fa-icon-name"></i>` Check out a full list of available icons and their class at <a href="http://fontawesome.io/icons/" target="_blank">http://fontawesome.io/icons/</a>
 
