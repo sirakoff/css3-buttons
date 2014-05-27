@@ -62,7 +62,21 @@ To use the 3D buttons simply add `-3d` to the button's color class
 ```html
 <a href="#" class="btn turcuoise-3d">Turcuoise</a>
 ```
-
+#### Dropdown with bootstrap's dropdown plugin
+```html
+<div class="dropdown">
+  <button data-toggle="dropdown" class="btn default">Dropdown trigger <b class="caret"></b></button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+   	<li><a href="">buttons</a></li>
+   	<li><a href="">buttons</a></li>
+   	<li><a href="">buttons</a></li>
+   	<li><a href="">buttons</a></li>
+   	<li><a href="">buttons</a></li>
+   	<li><a href="">buttons</a></li>
+   	<li><a href="">buttons</a></li>
+  </ul>
+</div>
+``
 #### Icons - Iconic Font by Font Awesome
 The buttons framework uses the Font Awesome. To add icons to the button add `<i class="fa fa-icon-name"></i>` Check out a full list of available icons and their class at <a href="http://fontawesome.io/icons/" target="_blank">http://fontawesome.io/icons/</a>
 
