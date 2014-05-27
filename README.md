@@ -63,5 +63,22 @@ To use the 3D buttons simply add `-3d` to the button's color class
 <a href="#" class="btn turcuoise-3d">Turcuoise</a>
 ```
 
-### Icons - Iconic Font by Font Awesome
-The buttons framework uses the Font Awesome. To add icons to the button add `<span class="fa fa-icon-name">` Check out a full list of available icons and their class at <a href="http://fontawesome.io/icons/" target="_blank">http://fontawesome.io/icons/</a>
+#### Icons - Iconic Font by Font Awesome
+The buttons framework uses the Font Awesome. To add icons to the button add `<i class="fa fa-icon-name"></i>` Check out a full list of available icons and their class at <a href="http://fontawesome.io/icons/" target="_blank">http://fontawesome.io/icons/</a>
+
+```html
+<button class="btn asbestos"><i class="fa fa-icon-name"></i>Button</button>
+```
+
+##### Icon position
+If you are adding the icon before the button text add class `left` to the i element
+
+```html
+<button class="btn asbestos"><i class="fa fa-icon-name left"></i>Button</button>
+```
+
+If you are adding the icon after the button text add class `right` to the i element
+
+```html
+<button class="btn asbestos"><i class="fa fa-icon-name right"></i>Button</button>
+```
