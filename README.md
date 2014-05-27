@@ -9,8 +9,8 @@ In order to use the default button add the classes `btn` and `default` to any ap
 
 ```html
 <a href="" class="btn default">Button</a>
-<button class="btn default-3d">Button</button>
-<input type="submit" class="btn default-3d" value="Submit">
+<button class="btn default">Button</button>
+<input type="submit" class="btn default" value="Submit">
 ```
 
 #### Button Sizes
