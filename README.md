@@ -28,3 +28,12 @@ For round buttons simply add the class `rd` to the button element
 ```html
 <a href="" class="btn default rd">Button</a>
 ```
+
+#### 3D Buttons
+To use the 3D buttons simply add `-3d` to the button's color class
+```html
+<a href="#" class="btn turcuoise-3d">Turcuoise</a>
+```
+
+### Icons - Iconic Font by Font Awesome
+The buttons framework uses the Font Awesome. To add icons to the button add `<span class="fa fa-icon-name">` Check out a full list of available icons and their class at <a href="http://fontawesome.io/icons/" target="_blank">http://fontawesome.io/icons/</a>
