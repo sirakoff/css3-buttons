@@ -4,6 +4,20 @@ Flat buttons built from css3.
 
 #Demo 
 <a href="sirakoff.github.io/css3-buttons/">Demo</a>
+
+### Setup
+Move `font-awesome.min.css` and `buttons.min.css` to your css folder and `dropdown.js` to your js folder. Leave the `fonts` folder in the root of your website.
+
+Include `buttons.min.css` in the head of your html page
+```html
+<link rel="stylesheet" href="css/buttons.min.css">
+```
+and `dropdown.js` in the footer after jquery
+
+```html
+<script src="js/dropdown.js"></script>
+```
+
 #### Default Button
 
 In order to use the default button add the classes `btn` and `default` to any appropriate element
