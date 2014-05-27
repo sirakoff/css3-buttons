@@ -1,8 +1,9 @@
 ## Flat CSS3 Buttons
 
-
 Flat buttons built from css3.
 
+#Demo 
+<a href="sirakoff.github.io/css3-buttons/">Demo</a>
 #### Default Button
 
 In order to use the default button add the classes `btn` and `default` to any appropriate element
@@ -67,13 +68,7 @@ To use the 3D buttons simply add `-3d` to the button's color class
 <div class="dropdown">
   <button data-toggle="dropdown" class="btn default">Dropdown trigger <b class="caret"></b></button>
   <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-   	<li><a href="">buttons</a></li>
-   	<li><a href="">buttons</a></li>
-   	<li><a href="">buttons</a></li>
-   	<li><a href="">buttons</a></li>
-   	<li><a href="">buttons</a></li>
-   	<li><a href="">buttons</a></li>
-   	<li><a href="">buttons</a></li>
+   	...
   </ul>
 </div>
 ```
