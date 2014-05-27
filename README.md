@@ -80,5 +80,5 @@ If you are adding the icon before the button text add class `left` to the i elem
 If you are adding the icon after the button text add class `right` to the i element
 
 ```html
-<button class="btn asbestos"><i class="fa fa-icon-name right"></i>Button</button>
+<button class="btn asbestos">Button<i class="fa fa-icon-name right"></i></button>
 ```
